@@ -19,13 +19,18 @@ return [
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => ['*'],
+    'allowed_origins' => [
+        'https://alif-tugas9pbp.netlify.app/',    // Production website domain
+        'https://apipbptugas9hph7fjiynxoqkzal7onbq3yehkzwzx41mvai2rmcs.soundofiwu.com/',    // API domain
+    ],
 
-    'allowed_origins_patterns' => [],
-
+    'allowed_origins_patterns' => [
+        '/^http:\/\/localhost:\d+$/',
+        '/^http:\/\/127\.0\.0\.1:\d+$/',
+    ],
     'allowed_headers' => ['*'],
 
-    'exposed_headers' => [],
+    'exposed_headers' => ['authorization', 'x-auth-token'],
 
     'max_age' => 0,
 
