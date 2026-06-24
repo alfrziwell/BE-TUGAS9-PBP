@@ -20,8 +20,8 @@ return [
     'allowed_methods' => ['*'],
 
     'allowed_origins' => [
-        'https://alif-tugas9pbp.netlify.app/',    // Production website domain
-        'https://apipbptugas9hph7fjiynxoqkzal7onbq3yehkzwzx41mvai2rmcs.soundofiwu.com/',    // API domain
+        'https://alif-tugas9pbp.netlify.app',    // Production website domain
+        'https://apipbptugas9hph7fjiynxoqkzal7onbq3yehkzwzx41mvai2rmcs.soundofiwu.com',    // API domain
     ],
 
     'allowed_origins_patterns' => [
